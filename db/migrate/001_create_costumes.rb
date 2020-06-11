@@ -11,7 +11,9 @@
 class CreateCostumes < ActiveRecord::Migration
   def change
     create_table :costumes do |t|
-      
+      name
+      price
+      img_url
     end
   end
 end
